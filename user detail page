@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Medical Dashboard</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="dashboard-background">
+    <div class="dashboard-container">
+      <h2>Employee Medical Information</h2>
+
+      <div class="employee-details">
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Employee Code:</strong> EMP12345</p>
+        <p><strong>Address:</strong> 123 Tech Avenue, Cityville</p>
+        <p><strong>Medical Card Number:</strong> MCN456789</p>
+      </div>
+
+      <h3>Medical Transactions</h3>
+      <table class="glass-table">
+        <thead>
+          <tr>
+            <th>Claim Amount</th>
+            <th>Paid Amount</th>
+            <th>Month</th>
+            <th>Year</th>
+            <th>Remarks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$150</td>
+            <td>$120</td>
+            <td>March</td>
+            <td>2025</td>
+            <td>Dental treatment</td>
+          </tr>
+          <tr>
+            <td>$200</td>
+            <td>$180</td>
+            <td>February</td>
+            <td>2025</td>
+            <td>Health check-up</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
